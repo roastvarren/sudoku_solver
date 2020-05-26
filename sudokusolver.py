@@ -66,8 +66,8 @@ def find_empty(b):
         return (i, j) # row, col - use as 'pos' in is_valid function    
   return None
 
-print('Sudoku grid:' + '\n\n')
+print('Sudoku grid:\n\n')
 print_board(grid)
 solve(grid)
-print('\n\n' + 'Solution:' + '\n\n')
+print('\n\nSolution:\n\n')
 print_board(grid)
